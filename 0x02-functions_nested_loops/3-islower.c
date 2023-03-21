@@ -1,14 +1,16 @@
-/*Auth: Eric Kwakye Boateng
- * Task: islower
+/*
+ *Auth: Eric Kwakye Boateng
+ *Task: islower
  */
 #include "main.h"
 /**
- * int _islower - that checks for lowercase character
- * @C: The character to be checked.
+ * _islower - that checks for lowercase character
+ * @c: The character to be checked.
+ * Return: 1 if character is lowercase, 0 otherwise
  */
 int _islower(int c)
-{ 
-	if(c >= 'a' && c <= 'z')
+{
+	if (c >= 'a' && c <= 'z')
 		return (1);
 	else
 		return (0);
