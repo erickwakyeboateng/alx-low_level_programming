@@ -1,7 +1,7 @@
 /*Auth: Eric Kwakye Boateng
  *Task: Functions and Nested Loops
  */
-#include <unistd.h>
+#include "main.h"
 /*
  * Main -  prints _putchar, followed by a new line.
  */

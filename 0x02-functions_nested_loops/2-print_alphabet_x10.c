@@ -2,7 +2,7 @@
  * Auth: Eric Kwakye Boateng
  * Task: 2. 10 x alphabet
  */
-#include <unistd.h>
+#include "main.h"
 /**
  * print_alphabet_x10 - Prints 10 times the alphabet, in lowercase.
  */

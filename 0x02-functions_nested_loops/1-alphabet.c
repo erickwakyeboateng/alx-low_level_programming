@@ -2,7 +2,7 @@
  * Auth: Eric Kwakye Boateng
  * Task: The alphabet game
  */
-#include <unistd.h>
+#include "main.h"
 /*
  * print_alphabet - Prints the alphabet, in lowercase, followed by a new line.
  *
