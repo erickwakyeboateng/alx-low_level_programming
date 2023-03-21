@@ -1,17 +1,21 @@
 /*
+ * Task: 4-isalpha.c
  * Auth: Eric Kwakye Boateng
- * Task: 4. isalpha
  */
-#include "main.h"
+
+#include "holberton.h"
+
 /**
- * _isalpha - checks for alphabetic character
- * @c: Alphabet that is used to check 
- * Return: 1 when  its lowercase and 0 when its lowercase  
+ * _isalpha - Checks if a character is alphabetic.
+ * @c: The character to be checked.
+ *
+ * Return: 1 if character is letter, lowercase or uppercase, 0 otherwise.
  */
 int _isalpha(int c)
 {
-	if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-		return(1);
+	if ((c >= 'a' && c <= 'z') ||
+	    (c >= 'A' && c <= 'Z'))
+		return (1);
 	else
-		return(0);
+		return (0);
 }
