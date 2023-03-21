@@ -1,5 +1,5 @@
 /*
- * File: 104-fibonacci.c
+ * Task: 104-fibonacci.c
  * Auth: Eric Kwakye Boateng
  */
 
