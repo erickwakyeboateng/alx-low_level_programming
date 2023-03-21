@@ -1,8 +1,8 @@
 /*Auth: Eric Kwakye Boateng
- *Task: Functions and Nested Loops
+ *Task: Printing _putchar
  */
 #include "main.h"
-/*
+/**
  * Main -  prints _putchar, followed by a new line.
  */
 int main(void)
