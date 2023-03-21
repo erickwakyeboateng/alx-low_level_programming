@@ -1,7 +1,7 @@
 /*Auth: Eric Kwakye Boateng
  *Task: Printing _putchar
  */
-#include"main.h"
+#include "main.h"
 /**
  * Main -  prints _putchar, followed by a new line.
  */
