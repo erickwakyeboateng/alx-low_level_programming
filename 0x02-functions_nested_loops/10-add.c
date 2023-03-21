@@ -9,7 +9,7 @@
  * @b: second integer to add
  * Return: Return sum of and b
  */
-int add (int a, int b)
+int add(int a, int b)
 {
 	return (a + b);
 
