@@ -2,14 +2,14 @@
 
 /**
  * print_numbers - Prints the numbers from 0-9.
- * @n: the variable to be checked
+ * @number: the variable to be checked
  */
 void print_numbers(void)
 {
-	int n;
+	int number;
 
-	for (n = 0; n <= 9; n++)
-		_putchar((n % 10) + '0');
+	for (number = 0; number <= 9; number++)
+		_putchar((number % 10) + '0');
 
 	_putchar('\n');
 }
