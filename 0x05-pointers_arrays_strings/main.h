@@ -1,5 +1,5 @@
-#define MAIN_h
-#ifndef MAIN_h
+#define MAIN_H
+#ifndef MAIN_H
 #include <stdlib.h>
 
 int _putchar(char c);
