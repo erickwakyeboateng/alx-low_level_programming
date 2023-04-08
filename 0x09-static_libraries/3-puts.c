@@ -2,18 +2,12 @@
 /**
  * _puts -  prints a string
  *
- * @str: arg s
+ * @str: arg 
  *
  * Return: string to stdout
  */
 
 void _puts(char *str)
 {
-
-	while (*str != '\0')
-	{
-		_putchar(*str);
-		str++;
-	}
-	_putchar('\n');
+	puts(str);
 }
