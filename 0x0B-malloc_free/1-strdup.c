@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-char *_strdup(char *str)		
+char *_strdup(char *str)
 {
 
 	char *alloc;
