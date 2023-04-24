@@ -1,1 +1,1 @@
-Coding in C
+Coding in C is very FUN. An ALX project
