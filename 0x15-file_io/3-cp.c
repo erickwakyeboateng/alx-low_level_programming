@@ -1,4 +1,6 @@
 #include "main.h"
+char *krate_buffer(char *file);
+void klose_file(int fd);
 
 /**
  * krate_buffer - Allocates 1024 bytes for a buffer.
