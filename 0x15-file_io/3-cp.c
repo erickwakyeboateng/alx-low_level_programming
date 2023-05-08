@@ -89,10 +89,8 @@ int main(int argc, char *argv[])
 		to = open(argv[2], O_WRONLY | O_APPEND);
 
 	} while (r_ead > 0);
-
 	free(buff_er);
 	close_file(from);
 	close_file(to);
-
 	return (0);
 }
